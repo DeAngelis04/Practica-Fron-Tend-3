@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+:root {
+  --primary-color: #f4d04e;
+  --secondary-color: #ffffff;
+  --text: #6b6b6b;
+  --shadow: #111111;
+}
+body {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  padding: 0;
+}
+p {
+  padding: 0;
+}
+.container {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  padding: 1rem;
+  align-items: center;
+  box-shadow: var(--shadow) 10px 10px 0px 0px;
+  border: 1px solid var(--shadow);
+  max-width: 330px;
+}
+.imagtop {
+  border-radius: 1rem;
+  width: 100%;
+
+  align-content: center;
+  flex-direction: column;
+}
+.learning {
+  font-weight: 400;
+}
+.learningbox {
+  background-color: hsl(47, 88%, 63%);
+  padding: 0.25rem 0.5rem;
+  width: fit-content;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 1rem;
+  color: #111111;
+}
+.titulo {
+  font-size: 16.5px;
+  font-weight: bolder;
+}
+.fecha {
+  font-size: 10px;
+  color: hsl(0, 0%, 7%);
+}
+.descripcion {
+  color: hsl(0, 0%, 42%);
+  font-size: 11.5px;
+}
+.name {
+  font-size: small;
+}
+.imagname {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.imagen {
+  border-radius: 50%;
+}
+.attribution {
+  margin: 1rem;
+  font-family: "Figtree", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2rem;
+    border-radius: 1rem;
+    gap: 2rem;
+  }
+}
