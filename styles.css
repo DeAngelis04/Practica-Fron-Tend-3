@@ -51,6 +51,11 @@ p {
   margin-top: 1rem;
   color: #111111;
 }
+.titulo:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
 .titulo {
   font-size: 16.5px;
   font-weight: bolder;
